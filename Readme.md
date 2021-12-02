@@ -96,6 +96,32 @@ function captchaSubmit(token){
 ```
 
 
+## Manual de uso: Widget Plans
+
+<b>selected:</b> indicar el tipo de membresía "funnels", "campaigns" o "designs".
+
+<b>showCurrentMemberships:</b> indica si queremos mostrar las membresías activas o no.
+		false -> no muestra ninguna.
+		true -> muestra las membresías activas.
+
+<b>showProducts:</b> indica si queremos mostrar productos de pago único o 
+	de pago por servicio(true) y en caso de no querer mostrarlos(false).
+
+<b>title y subtitle</b> ambos son contenido y aceptan una cadena de texto por ejemplo "este es el subtitulo"
+
+<b>currency:</b> también es contenido y acepta dos cadenas de texto por ejemplo ["15", "USD"]
+
+<b>subscriptions:</b> si el usuario tiene suscripciones, se pasaría el valor a éste campo.
+
+<b>order:</b> acepta 3 cadenas de texto separadas por comas que definirán el orden en que queremos mostrar
+	las membresías, además solo aparecerán las cadenas de texto que pasemos a order, es decir que
+	["campaigns, "funnels"] solo mostraría los recuadros de las membresías para campañas y embudos.
+
+<b>showOnly:</b> acepta una sola cadena de texto en caso que queramos mostrar únicamente una membresía,
+	las opciones serían -> "funnels", "campaigns" o "designs".
+
+<b>showPlans:</b> acepta un valor verdadero -> true o falso -> false, esto define si vamos a mostrar o no los planes o tipos de membresías.
+
 
 # Widget Plans
 ``` html
