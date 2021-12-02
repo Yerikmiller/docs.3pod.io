@@ -1,4 +1,4 @@
-## Manual de uso: Widget Register
+# Manual de uso: Widget Register
 
 <b>plans_selected:</b> indicar el id del panel de planes en 3pod.
 
@@ -12,7 +12,7 @@
 
 <b>lang:</b> {aquí irá el contenido del widget}.
 
-# Widget Register
+## Widget Register
 ``` html
 <script>
 var tripod_register = {
