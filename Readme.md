@@ -1,3 +1,17 @@
+## Manual de uso: Widget Register
+
+<b>plans_selected:</b> indicar el id del panel de planes en 3pod.
+
+<b>userFromCampaign:</b> cadena de texto, será el TAG o etiqueta "Campaña Diciembre".
+
+<b>is_online:</b> indica si está en local(false) o en producción(true).
+
+<b>membership:</b> tipo de membresía del plan seleccionado, embudos de venta, diseños o campañas.
+
+<b>currency:</b> tipo de signo y divisa que se va a usar en todo el widget.
+
+<b>lang:</b> {aquí irá el contenido del widget}.
+
 # Widget Register
 ``` html
 <script>
@@ -80,20 +94,6 @@ function captchaSubmit(token){
 <script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@2.2.0/projects/3Pod/Plans/Widgets/Register.js'></script>
 <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 ```
-
-## Manual de uso: Widget Register
-
-<b>plans_selected:</b> indicar el id del panel de planes en 3pod.
-
-<b>userFromCampaign:</b> cadena de texto, será el TAG o etiqueta "Campaña Diciembre".
-
-<b>is_online:</b> indica si está en local(false) o en producción(true).
-
-<b>membership:</b> tipo de membresía del plan seleccionado, embudos de venta, diseños o campañas.
-
-<b>currency:</b> tipo de signo y divisa que se va a usar en todo el widget.
-
-<b>lang:</b> {aquí irá el contenido del widget}.
 
 
 
