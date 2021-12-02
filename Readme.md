@@ -6,6 +6,8 @@
 
 <b>is_online:</b> indica si está en local(false) o en producción(true).
 
+<b>type:</b> define el tipo de widget, los valores "basic" o "trial" NO muestran información del plan ni para pagos por el contrario el valor "default" muestra toda la información.
+
 <b>membership:</b> tipo de membresía del plan seleccionado, embudos de venta, diseños o campañas.
 
 <b>currency:</b> tipo de signo y divisa que se va a usar en todo el widget.
@@ -112,6 +114,8 @@ function captchaSubmit(token){
 <b>currency:</b> también es contenido y acepta dos cadenas de texto por ejemplo ["15", "USD"]
 
 <b>subscriptions:</b> si el usuario tiene suscripciones, se pasaría el valor a éste campo.
+
+<b>links:</b> nos permite agregar rutas a cada uno de los campos, cuando queramos que cada una de las membresías envíen a un link específico.
 
 <b>order:</b> acepta 3 cadenas de texto separadas por comas que definirán el orden en que queremos mostrar
 	las membresías, además solo aparecerán las cadenas de texto que pasemos a order, es decir que
