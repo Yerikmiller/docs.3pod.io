@@ -1,23 +1,23 @@
 # Widget Register
 ``` html
-  <script>
+<script>
 var tripod_register = {
   plans_selected: ["pyji"], // from 3Pod Admin panel
-  userFromCampaign: "TEST", // TAG - CRM
-  is_online: false,
-  type: "trial", // default, trial, basic
-  send_to: "",
+  userFromCampaign: "Campaña Diciembre", // TAG - CRM
+  is_online: true,
+  type: "basic", // default, trial, basic (set one of these). // ESTABLECER basic PARA REGISTRO NORMAL
+  // send_to: "",
   stripeTokens: {
     live: "pk_live_ZodCkKBak1MPlwBJsxsMuubx",
     test: "pk_test_X7AvKFxbFhE5jaMPKPqiAbql003mxvgpKe",
   },
   module: "all",
-  membership: "funnels", // designs, campaigns, funnels
+  membership: "funnels",
   currency: ["$", "USD"],
   lang: {
     title: "Crea tu cuenta",
-    plan_text: "Plan",
     subtitle: "Y obten 14 dias de prueba para<br> comenzar tu negocio digital",
+    plan_text: "Plan",
     forms: {
       basic: {
         name: "Nombre",
@@ -76,8 +76,8 @@ function captchaSubmit(token){
 <div style="display:flex;justify-content:center;">
 	<div class="register-gadget-3pod" style="max-width:640px;"></div>
 </div>
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@2.0.18/projects/3Pod/Plans/Widgets/Register.css">
-<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@2.0.18/projects/3Pod/Plans/Widgets/Register.js'></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@2.2.0/projects/3Pod/Plans/Widgets/Register.css">
+<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@2.2.0/projects/3Pod/Plans/Widgets/Register.js'></script>
 <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 ```
 
