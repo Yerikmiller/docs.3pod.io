@@ -34,6 +34,7 @@ var tripod_register = {
     title: "Crea tu cuenta",
     plan_text: "Plan",
     subtitle: "Y obten 14 dias de prueba para<br> comenzar tu negocio digital",
+    goBack: "Volver",
     forms: {
       /* Register Module Start  */
       basic: {
@@ -44,7 +45,7 @@ var tripod_register = {
         button: "Continuar",
         adviseRequired: "Campos requeridos (<span class='has-text-danger'>*</span>)",        
         sign_in: {
-          active: false, // TRUE para mostrar "Iniciar sesión!"
+          active: true, // TRUE para mostrar "Iniciar sesión!"
           already_has: `Ya tienes una cuenta`,
           in: "Inicia sesión aquí",
         },
@@ -57,8 +58,7 @@ var tripod_register = {
       planSelection: {
         title: "¡Emprende a otro nivel!",
         subtitle: "Pon tu información de pago para empezar.",
-        text_off: "Ahorra",
-        goBack: "Volver",
+        text_off: "Ahorra",        
         intervals2: {
           year: "año",
           month: "mes"
@@ -86,7 +86,7 @@ var tripod_register = {
           not_exist: "Datos de usuario incorrectos. Por favor intente de enuevo"
         }
       },
-      /* Payment Module End  */
+      /* Sign In Module End  */
       guarantee: [
         `<span class="fw600 has-text-dark">Tienes 7 días de garantía de devolución de tu dinero</span>.`,
 
@@ -105,15 +105,12 @@ function captchaSubmit(token){
   tripod_register.captchaToken = token;
   tripod_register.submit(token);
 }
-
-
 </script>
-<div class="container container-application" style="max-width: 1280px;">
-  <div class="plans-gadget-3pod"></div>
-  <div class="register-gadget-3pod"></div>
+<div style="display:flex;justify-content:center;">
+	<div class="register-gadget-3pod" style="max-width:640px;min-width:320px;"></div>
 </div>
-<link rel="stylesheet" type="text/css" replace-source-app href="/build/Register.css">
-<script replace-source-app src='/build/Register.js'></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.1/projects/3Pod/Plans/Widgets/Register.css">
+<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.1/projects/3Pod/Plans/Widgets/Register.js'></script>
 ```
 
 
