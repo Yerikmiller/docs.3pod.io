@@ -18,7 +18,7 @@
 ``` html
 <script>
 var tripod_register = {
-  plans_selected: ["pyji"], // from 3Pod Admin panel
+  plans_selected: ["pyji"], /* CODIGO DE PRUEBA: "lTOW" - planes de 3Pod Admin panel */
   userFromCampaign: "Campaña de Prueba", // TAG - CRM
   is_online: false,
   type: "default", // default, trial, basic (set one of these).
