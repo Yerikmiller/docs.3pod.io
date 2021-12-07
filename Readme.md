@@ -41,6 +41,7 @@ var tripod_register = {
         email: "Correo electrónico",
         password: "Contraseña",
         button: "Continuar",
+	adviseRequired: "Campos requeridos (<span class='has-text-danger'>*</span>)",
         sign_in: {
           active: false,
           already_has: `Ya tienes una cuenta`,
