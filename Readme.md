@@ -19,9 +19,9 @@
 <script>
 var tripod_register = {
   plans_selected: ["pyji"], // from 3Pod Admin panel
-  userFromCampaign: "Campaña Diciembre", // TAG - CRM
+  userFromCampaign: "elclubdeldinero2", // TAG - CRM
   is_online: true,
-  type: "basic", // default, trial, basic (set one of these). // ESTABLECER basic PARA REGISTRO NORMAL
+  type: "default", // default, trial, basic (set one of these). // ESTABLECER basic PARA REGISTRO NORMAL
   // send_to: "",
   stripeTokens: {
     live: "pk_live_ZodCkKBak1MPlwBJsxsMuubx",
@@ -41,7 +41,7 @@ var tripod_register = {
         email: "Correo electrónico",
         password: "Contraseña",
         button: "Continuar",
-	adviseRequired: "Campos requeridos (<span class='has-text-danger'>*</span>)",
+        adviseRequired: "(<span class='has-text-danger'>*</span>) Campos requeridos ",
         sign_in: {
           active: false,
           already_has: `Ya tienes una cuenta`,
@@ -55,6 +55,7 @@ var tripod_register = {
         title: "¡Emprende a otro nivel!",
         subtitle: "Pon tu información de pago para empezar.",
         text_off: "Ahorra",
+        goBack: "Volver",
         intervals2: {
           year: "año",
           month: "mes"
@@ -69,7 +70,8 @@ var tripod_register = {
         card: "Número de tarjeta",
         card_name_owner: "Titular de la tarjeta",
         button: "Comienza ahora mismo",
-        headband: "Ahorra"
+        headband: "Ahorra",
+        securePayment: "Pago Seguro SSL",
       }, 
       guarantee: [
         `<span class="fw600 has-text-dark">Tienes 7 días de garantía de devolución de tu dinero</span>.`,
@@ -93,8 +95,8 @@ function captchaSubmit(token){
 <div style="display:flex;justify-content:center;">
 	<div class="register-gadget-3pod" style="max-width:640px;"></div>
 </div>
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@latest/projects/3Pod/Plans/Widgets/Register.css">
-<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@latest/projects/3Pod/Plans/Widgets/Register.js'></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.0.10/projects/3Pod/Plans/Widgets/Register.css">
+<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.0.10/projects/3Pod/Plans/Widgets/Register.js'></script>
 <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 ```
 
