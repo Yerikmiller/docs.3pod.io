@@ -19,9 +19,9 @@
 <script>
 var tripod_register = {
   plans_selected: ["pyji"], // from 3Pod Admin panel
-  userFromCampaign: "elclubdeldinero2", // TAG - CRM
-  is_online: true,
-  type: "default", // default, trial, basic (set one of these). // ESTABLECER basic PARA REGISTRO NORMAL
+  userFromCampaign: "Campaña de Prueba", // TAG - CRM
+  is_online: false,
+  type: "default", // default, trial, basic (set one of these).
   // send_to: "",
   stripeTokens: {
     live: "pk_live_ZodCkKBak1MPlwBJsxsMuubx",
@@ -32,18 +32,19 @@ var tripod_register = {
   currency: ["$", "USD"],
   lang: {
     title: "Crea tu cuenta",
-    subtitle: "Y obten 14 dias de prueba para<br> comenzar tu negocio digital",
     plan_text: "Plan",
+    subtitle: "Y obten 14 dias de prueba para<br> comenzar tu negocio digital",
     forms: {
+      /* Register Module Start  */
       basic: {
         name: "Nombre",
         lastname: "Apellido",
         email: "Correo electrónico",
         password: "Contraseña",
         button: "Continuar",
-        adviseRequired: "(<span class='has-text-danger'>*</span>) Campos requeridos ",
+        adviseRequired: "Campos requeridos (<span class='has-text-danger'>*</span>)",        
         sign_in: {
-          active: false,
+          active: false, // TRUE para mostrar "Iniciar sesión!"
           already_has: `Ya tienes una cuenta`,
           in: "Inicia sesión aquí",
         },
@@ -51,6 +52,8 @@ var tripod_register = {
           password_error: "Introduce una contraseña mayor a 6 dígitos",          
         }
       },
+      /* Register Module End  */
+      /* Payment Module Start  */
       planSelection: {
         title: "¡Emprende a otro nivel!",
         subtitle: "Pon tu información de pago para empezar.",
@@ -73,6 +76,17 @@ var tripod_register = {
         headband: "Ahorra",
         securePayment: "Pago Seguro SSL",
       }, 
+      /* Payment Module End  */
+      /* Sign In Module Start  */
+      signIn: {
+        title: "Inicia Sesión",
+        subtitle: "y obtén beneficios 3Pod",
+        button: "Iniciar Sesión",
+        errors: {
+          not_exist: "Datos de usuario incorrectos. Por favor intente de enuevo"
+        }
+      },
+      /* Payment Module End  */
       guarantee: [
         `<span class="fw600 has-text-dark">Tienes 7 días de garantía de devolución de tu dinero</span>.`,
 
@@ -91,13 +105,15 @@ function captchaSubmit(token){
   tripod_register.captchaToken = token;
   tripod_register.submit(token);
 }
+
+
 </script>
-<div style="display:flex;justify-content:center;">
-	<div class="register-gadget-3pod" style="max-width:640px;"></div>
+<div class="container container-application" style="max-width: 1280px;">
+  <div class="plans-gadget-3pod"></div>
+  <div class="register-gadget-3pod"></div>
 </div>
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.0.10/projects/3Pod/Plans/Widgets/Register.css">
-<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.0.10/projects/3Pod/Plans/Widgets/Register.js'></script>
-<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="/build/Register.css">
+<script replace-source-app src='/build/Register.js'></script>
 ```
 
 
