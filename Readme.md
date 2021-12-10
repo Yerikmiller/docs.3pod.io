@@ -149,7 +149,7 @@ function captchaSubmit(token){
 <script>
 var tripod_plans = {
   component: "plans",
-  selected: "campaigns",
+  selected: "funnels",
   showCurrentMemberships: false, // MOSTRAR MEMBRESIAS SOLO CUANDO SE ESTA LOGUEADO.
   showProducts: true,
   title: "Elije uno de nuestros planes",
