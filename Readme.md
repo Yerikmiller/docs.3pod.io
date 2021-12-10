@@ -109,8 +109,8 @@ function captchaSubmit(token){
 <div style="display:flex;justify-content:center;">
 	<div class="register-gadget-3pod" style="max-width:640px;min-width:320px;"></div>
 </div>
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.1/projects/3Pod/Plans/Widgets/Register.css">
-<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.1/projects/3Pod/Plans/Widgets/Register.js'></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.4/projects/3Pod/Plans/Widgets/Register.css">
+<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.4/projects/3Pod/Plans/Widgets/Register.js'></script>
 ```
 
 
