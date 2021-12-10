@@ -155,7 +155,7 @@ var tripod_plans = {
   title: "Elije uno de nuestros planes",
   subtitle: "Tenemos un plan justo a la medida de tu negocio",
   currency: ["$", "USD"], // $ 15 USD for example
-  subscriptions: Subscriptions,
+  subscriptions: [],
   stripe_subs: {},
   links: {
     /*plansSelector: {
