@@ -23,6 +23,7 @@ var tripod_register = {
   is_online: false,
   type: "default", // default, trial, basic (set one of these).
   // send_to: "",
+  affiliate: null,
   stripeTokens: {
     live: "pk_live_ZodCkKBak1MPlwBJsxsMuubx",
     test: "pk_test_X7AvKFxbFhE5jaMPKPqiAbql003mxvgpKe",
