@@ -110,8 +110,8 @@ function captchaSubmit(token){
 <div style="display:flex;justify-content:center;">
 	<div class="register-gadget-3pod" style="max-width:640px;min-width:320px;"></div>
 </div>
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.4/projects/3Pod/Plans/Widgets/Register.css">
-<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@3.1.4/projects/3Pod/Plans/Widgets/Register.js'></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@latest/widgets/Plans/Register.css">
+<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@latest/widgets/Plans/Register.js'></script>
 ```
 
 
@@ -208,7 +208,7 @@ var tripod_plans = {
 };
 </script>
 
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@latest/projects/3Pod/Plans/Widgets/Plans.css">
-<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@latest/projects/3Pod/Plans/style.css">
-<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/yerikmiller.github.io@latest/projects/3Pod/Plans/Widgets/Plans.js'></script>
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@4.0.0/widgets/Plans/Plans.css">
+<link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@master/widgets/Plans/styles.css">
+<script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@latest/widgets/Plans/Plans.js'></script>
 ```
