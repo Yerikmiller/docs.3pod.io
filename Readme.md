@@ -31,6 +31,7 @@ var tripod_register = {
   module: "all",
   membership: "funnels",
   currency: ["$", "USD"],
+  host_offline: "http://localhost/app.3pod.io/",
   lang: {
     title: "Crea tu cuenta",
     plan_text: "Plan",
