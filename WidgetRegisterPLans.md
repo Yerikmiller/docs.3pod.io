@@ -186,8 +186,23 @@ tripod_plans.onSelect = function(plan, interval, button){
 }
 
 </script>
+<style>
+.Title-Plan-recommended span{
+    color:#fff;
+}
+.Title-Plan-Default span{
+    color:var(--color-dark-grey); 
+}
+.CurrencyFormatter--container .CurrencyFormatter{
+    display: inline-flex;
+    align-items: baseline;
+}
+.CurrencyFormatter--cents{
+    font-size: calc(8px + 0.3em);
+}
+</style>
 <div style="display:flex;justify-content:center;">
-	<div class="register-gadget-3pod" style="max-width:640px;min-width:320px;"></div>
+	<div class="register-gadget-3pod" style="max-width:1440px;min-width:320px;"></div>
 </div>
 <link rel="stylesheet" type="text/css" replace-source-app href="https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@latest/widgets/Plans/Register.css">
 <script replace-source-app src='https://cdn.jsdelivr.net/gh/Yerikmiller/3pod-us.github.io@latest/widgets/Plans/Register.js'></script>
